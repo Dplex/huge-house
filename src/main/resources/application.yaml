@@ -11,6 +11,7 @@ spring:
     properties:
       hibernate.jdbc.lob.non_contextual_creation: true
       hibernate.dialect: org.hibernate.dialect.PostgreSQLDialect
+      hibernate.format_sql: true
     show-sql: true
   #  jpa.properties.hibernate.jdbc.lob.non_contextual_creation: true
   jackson.serialization.indent_output: true

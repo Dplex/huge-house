@@ -4,11 +4,11 @@ import javax.persistence.*
 
 @Entity
 @Table(name = "tlocation", schema = "public")
-data class Location(
+data class LocationVo(
         @Id
         @GeneratedValue(strategy = GenerationType.AUTO)
         @Column(name = "id")
-        val ID: Long,
+        val ID: Long?,
 
         @Column(name = "userid")
         val userId: String,
