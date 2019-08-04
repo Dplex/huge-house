@@ -15,3 +15,6 @@ spring:
     show-sql: true
   #  jpa.properties.hibernate.jdbc.lob.non_contextual_creation: true
   jackson.serialization.indent_output: true
+  devtools:
+    livereload:
+      enabled: true
